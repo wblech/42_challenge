@@ -4,7 +4,7 @@ This is a simple API that register a student data. It was created for the 42 cha
 
 For documentation click this [link](https://github.com/wblech/42_challenge/blob/master/documentation.md)
 
-You can get the insomnia json [here](https://github.com/wblech/42_challenge/blob/master/insomnia/Insomnia_2020-07-15.json)
+You can get the insomnia json [here](https://github.com/wblech/42_challenge/blob/master/insomnia)
 
 
 - [Coding Challenge Vaga Full-time 42 São Paulo](#coding-challenge-vaga-full-time-42-são-paulo)
