@@ -33,7 +33,7 @@ You can get the insomnia json [here](https://github.com/wblech/42_challenge/blob
    🐶 Server running at port 3000
    ```
 
-* The APP will be running at in a dev:
+* The APP will be running at:
 
    ```
    http://localhost:3000
