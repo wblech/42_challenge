@@ -23,21 +23,21 @@ You can get the insomnia json [here](https://github.com/wblech/42_challenge/blob
 
 2) Run [docker-compose](https://docs.docker.com/compose/) at the root folder:
 
-```
-docker-compose up
-```
+   ```
+   docker-compose up
+   ```
 
 2) Wait until you get this message:
 
-```
-🐶 Server running at port 3000
-```
+   ```
+   🐶 Server running at port 3000
+   ```
 
 * The APP will be running at in a dev:
 
-```
-http://localhost:3000
-```
+   ```
+   http://localhost:3000
+   ```
 
 ## What it does and how it works?
 
