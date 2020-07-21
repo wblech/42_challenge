@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  nodejs:
+    container_name: nodejs
+    build: '.'
+    depends_on:
+      - db_postgres
+    networks:
+      - app-connect
+    ports:
+      - '3000:3000'
+
+  db_postgres:
+    container_name: postgres
+    image: postgres:11
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    networks:
+      - app-connect
+    ports:
+    - '5432:5432'
+
+networks:
+  app-connect:
+      driver: bridge
