@@ -1,0 +1,19 @@
+
+{
+	"type": "postgres",
+	"host": "db_postgres",
+	"port": 5432,
+	"username": "postgres",
+	"password": "docker",
+	"database": "42sp",
+	"entities": [
+		"./dist/models/*.js"
+	],
+	"migrations": [
+		"./dist/database/migrations/*.js"
+	],
+	"cli": {
+		"migrationsDir": "./src/database/migrations",
+		"entitiesDir": "./src/models"
+	}
+}
